@@ -1,0 +1,17 @@
+📝 Summary  
+When adding an addon along with a license, the monthly license price on page 2 "Review & Checkout" and page 3 "Checkout" incorrectly includes the addon price.  
+
+🔄 Steps to Reproduce  
+1. Open the cPanel Licenses page (https://store.cpanel.net/store/cpanel-licenses).  
+2. Click the "Order Now" button under the selected license.  
+3. Enter an IP address (e.g., 192.168.0.1).  
+4. Click the "Continue" button.  
+
+❌ Actual Result  
+The displayed monthly license price is incorrect. It includes both the license price and the price of the added addon (see attached screenshot: bugScreenshot.png).
+Same problem on page 3 "Checkout".
+
+✅ Expected Result  
+The monthly license price should reflect only the cost of the selected license, without including any addon prices.  
+
+
