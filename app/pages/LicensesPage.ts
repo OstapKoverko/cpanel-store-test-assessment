@@ -12,7 +12,7 @@ export class LicensesPage extends AbstractPage {
     this.getlicenseContainerLocator(licenseTitle).locator(`.price`);
 
   async goto() {
-    await this.page.goto('/store/cpanel-licenses');
+    await super.goto('/store/cpanel-licenses');
   }
 
   async getProductPriceByTitle(licenseTitle: string) {
